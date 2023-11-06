@@ -197,7 +197,7 @@ class _DatePickerRoute<T> extends PopupRoute<T> {
     RouteSettings? settings,
     BasePickerModel? pickerModel,
   })  : this.pickerModel = pickerModel ?? DatePickerModel(),
-        this.theme = theme ?? DatePickerTheme(),
+        this.theme = DatePickerTheme(),
         super(settings: settings);
 
   final bool? showTitleActions;
